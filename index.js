@@ -333,7 +333,7 @@ const displayDocumentaries = (data) => {
   let rowEl = document.getElementById('row');
 
   let originalsTitle = document.createElement('p');
-  originalsTitle.textContent = 'Documentaries Movies';
+  originalsTitle.textContent = 'Documentary Movies';
   originalsTitle.classList.add('category-title')
   rowEl.appendChild(originalsTitle);
 
