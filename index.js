@@ -255,7 +255,7 @@ const displayHorrorData = (data) => {
   let rowEl = document.getElementById('row');
 
   let originalsTitle = document.createElement('p');
-  originalsTitle.textContent = 'Comedy Movies';
+  originalsTitle.textContent = 'Horror Movies';
   originalsTitle.classList.add('category-title')
   rowEl.appendChild(originalsTitle);
 
@@ -294,7 +294,7 @@ const displayDataRomance = (data) => {
   let rowEl = document.getElementById('row');
 
   let originalsTitle = document.createElement('p');
-  originalsTitle.textContent = 'Comedy Movies';
+  originalsTitle.textContent = 'Romantic Movies';
   originalsTitle.classList.add('category-title')
   rowEl.appendChild(originalsTitle);
 
@@ -333,7 +333,7 @@ const displayDocumentaries = (data) => {
   let rowEl = document.getElementById('row');
 
   let originalsTitle = document.createElement('p');
-  originalsTitle.textContent = 'Comedy Movies';
+  originalsTitle.textContent = 'Documentaries Movies';
   originalsTitle.classList.add('category-title')
   rowEl.appendChild(originalsTitle);
 
